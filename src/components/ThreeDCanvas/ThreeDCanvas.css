@@ -1,0 +1,16 @@
+.three-d-canvas {
+    position:fixed;
+    z-index:0;
+    top:0;
+    left:0;
+    height:100lvh;
+    width:100lvw;
+    transition: opacity 800ms;
+}
+
+.three-d-canvas canvas {
+    
+}
+.--invisible {
+    opacity:0;
+}

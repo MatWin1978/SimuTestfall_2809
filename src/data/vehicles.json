@@ -1,0 +1,62 @@
+[
+    {
+        "RbSchluessel": "TTL109055",
+        "Marke": "Tesla Motors",
+        "Modell": "Model 3",
+        "Fahrzeugtyp": "Model 3",
+        "Baujahr": "12/2019",
+        "VIN": "5YJ3E1EA0MF994422",
+        "HSN": "1480",
+        "TSN": "AAR",
+        "isElectric": true,
+        "isValid": false
+    },
+    {
+        "RbSchluessel": "TOY3479",
+        "Marke": "Toyota",
+        "Modell": "Prius",
+        "Fahrzeugtyp": "Prius 1.8",
+        "Baujahr": "04/2009 - 12/2015",
+        "VIN": "JTDKN3DU5F1898249",
+        "HSN": "5013",
+        "TSN": "AEW",
+        "isElectric": true,
+        "isValid": false
+    },
+    {
+        "RbSchluessel": "0815QUE",
+        "Marke": "Queo",
+        "Modell": "e-Volution",
+        "Fahrzeugtyp": "e-Volution",
+        "Baujahr": "02/2021 - 12/2025",
+        "VIN": "QNXT3250100000001",
+        "HSN": "QU30",
+        "TSN": "NXT",
+        "isElectric": true,
+        "isValid": true
+    },
+    {
+        "RbSchluessel": "VWW103165",
+        "Marke": "Volkswagen",
+        "Modell": "e-up!",
+        "Fahrzeugtyp": "e-up!",
+        "Baujahr": "08/2019 - 12/2023",
+        "VIN": "WVWZZZAAZMD907645",
+        "HSN": "0603",
+        "TSN": "CKJ",
+        "isElectric": true,
+        "isValid": false
+    },
+    {
+        "RbSchluessel": "VWW103165",
+        "Marke": "Volkswagen",
+        "Modell": "Golf",
+        "Fahrzeugtyp": "Golf IV",
+        "Baujahr": "06/1009 - 12/2002",
+        "VIN": "WVWGC21J0YW456209",
+        "HSN": "0603",
+        "TSN": "560",
+        "isElectric": false,
+        "isValid": false
+    }
+]

@@ -1,0 +1,152 @@
+[
+    {
+        "RbSchluessel": "0815QUE",
+        "routeManuals": [
+            { "type": "action", "data": { "id": "01_FU", "contentHtml": "Fahrzeugübersicht BASIC" } },
+            { "type": "action", "data": { "id": "02_HV", "contentHtml": "Hochvolt System: Allgemeine Informationen" } },
+            { "type": "action", "data": { "id": "03_BF", "contentHtml": "Brems-/Fahrstabilität: Allgemeine, fahrzeugunabhängige Informationen" } },
+            { "type": "action", "data": { "id": "04_BF", "contentHtml": "Brems-/Fahrstabilität: Mischen und Tausch von Bremsflüssigkeiten" } },
+            { "type": "action", "data": { "id": "05_HV", "contentHtml": "Elektr. Energiemanagement: Hochvolt-Spannungsfreischaltung manuell" } }
+        ],
+        "routeDocs": [
+            { "id": "01_FU", "title": "Fahrzeugübersicht BASIC", "type": "action", "data": { "id": "01-1_FU_Gueltigkeit", "contentHtml": "Gültigkeit der Anleitung" } },
+            { "id": "01_FU", "title": "Fahrzeugübersicht BASIC", "type": "action", "data": { "id": "01-2_FU_FzgIdentifikation", "contentHtml": "Fahrzeug-Identifikation" } },
+            { "id": "01_FU", "title": "Fahrzeugübersicht BASIC", "type": "action", "data": { "id": "01-3_FU_Sicherheitshinweise", "contentHtml": "Sicherheitsbezogene Informationen" } },
+            { "id": "01_FU", "title": "Fahrzeugübersicht BASIC", "type": "action", "data": { "id": "01-4_FU_Einbaulagen", "contentHtml": "Einbaulagen" } },
+
+            { "id": "02_HV", "title": "Hochvolt System: Allgemeine Informationen", "type": "action", "data": { "id": "02-1_HV_Gueltigkeit", "contentHtml": "Gültigkeit der Anleitung" } },
+            { "id": "02_HV", "title": "Hochvolt System: Allgemeine Informationen", "type": "action", "data": { "id": "02-2_HV_Sicherheitshinweise", "contentHtml": "Sicherheitsbezogene Informationen" } },
+            { "id": "02_HV", "title": "Hochvolt System: Allgemeine Informationen", "type": "action", "data": { "id": "02-3_HV_Schutzmassnahmen", "contentHtml": "Schutzmaßnahmen" } },
+            { "id": "02_HV", "title": "Hochvolt System: Allgemeine Informationen", "type": "action", "data": { "id": "02-4_HV_Begriffe", "contentHtml": "Begriffserläuterungen" } },
+
+            { "id": "03_BF", "title": "Brems-/Fahrstabilität: Allgemeine, fahrzeugunabhängige Informationen", "type": "action", "data": { "id": "03-1_BF_Allgemein_ServiceInfo", "contentHtml": "Allgemeine, fahrzeugunabhängige Informationen zur hydraulischen Bremsanlage" } },
+            { "id": "04_BF", "title": "Brems-/Fahrstabilität: Mischen und Tausch von Bremsflüssigkeiten", "type": "action", "data": { "id": "04-1_BF_Wechsel-Bremsfl_ServiceInfo", "contentHtml": "Mischen und Tausch von Bremsﬂüssigkeit DOT 3 mit DOT 4 bzw. DOT 5.1" } },
+
+            { "id": "05_HV", "title": "Elektr. Energiemanagement: Hochvolt-Spannungsfreischaltung manuell", "type": "action", "data": { "id": "05-1_HV_Vorgehensweise", "contentHtml": "Allgemeine Vorgehensweise Hochvolt-System spannungsfrei schalten / wieder einschalten" } },
+            { "id": "05_HV", "title": "Elektr. Energiemanagement: Hochvolt-Spannungsfreischaltung manuell", "type": "action", "data": { "id": "05-2_HV_Vorgehensweise_ausschalten", "contentHtml": "Vorgehensweise Hochvolt-System spannungsfrei schalten" } },
+            { "id": "05_HV", "title": "Elektr. Energiemanagement: Hochvolt-Spannungsfreischaltung manuell", "type": "action", "data": { "id": "05-3_HV_Vorgehensweise_einschalten", "contentHtml": "Vorgehensweise Hochvolt-System wieder einschalten" } },
+
+            {
+                "id": "01-1_FU_Gueltigkeit",
+                "parent": "01_FU",
+                "type": "doc",
+                "data": {
+                    "title": "Gültigkeit der Anleitung",
+                    "url": "expert-system/0815QUE/01-1_FU_Gueltigkeit.html"
+                }
+            },
+            {
+                "id": "01-2_FU_FzgIdentifikation",
+                "parent": "01_FU",
+                "type": "doc",
+                "data": {
+                    "title": "Identifikationsmethode - Fahrzeug-Identifikation",
+                    "url": "expert-system/0815QUE/01-2_FU_FzgIdentifikation.html"
+                }
+            },
+            {
+                "id": "01-3_FU_Sicherheitshinweise",
+                "parent": "01_FU",
+                "type": "doc",
+                "data": {
+                    "title": "Sicherheitsbezogene Informationen",
+                    "url": "expert-system/0815QUE/01-3_FU_Sicherheitshinweise.html"
+                }
+            },
+            {
+                "id": "01-4_FU_Einbaulagen",
+                "parent": "01_FU",
+                "type": "doc",
+                "data": {
+                    "title": "Einbaulagen",
+                    "url": "expert-system/0815QUE/01-4_FU_Einbaulagen.html"
+                }
+            },
+
+            {
+                "id": "02-1_HV_Gueltigkeit",
+                "parent": "02_HV",
+                "type": "doc",
+                "data": {
+                    "title": "Gültigkeit der Anleitung",
+                    "url": "expert-system/0815QUE/02-1_HV_Gueltigkeit.html"
+                }
+            },
+            {
+                "id": "02-2_HV_Sicherheitshinweise",
+                "parent": "02_HV",
+                "type": "doc",
+                "data": {
+                    "title": "Sicherheitsbezogene Informationen",
+                    "url": "expert-system/0815QUE/02-2_HV_Sicherheitshinweise.html"
+                }
+            },
+            {
+                "id": "02-3_HV_Schutzmassnahmen",
+                "parent": "02_HV",
+                "type": "doc",
+                "data": {
+                    "title": "Schutzmaßnahmen",
+                    "url": "expert-system/0815QUE/02-3_HV_Schutzmassnahmen.html"
+                }
+            },
+            {
+                "id": "02-4_HV_Begriffe",
+                "parent": "02_HV",
+                "type": "doc",
+                "data": {
+                    "title": "Begriffserläuterungen",
+                    "url": "expert-system/0815QUE/02-4_HV_Begriffe.html"
+                }
+            },
+
+            {
+                "id": "03-1_BF_Allgemein_ServiceInfo",
+                "parent": "03_BF",
+                "type": "doc",
+                "data": {
+                    "title": "Allgemeine, fahrzeugunabhängige Informationen zur hydraulischen Bremsanlage",
+                    "url": "expert-system/0815QUE/03-1_BF_Allgemein_ServiceInfo.html"
+                }
+            },
+
+            {
+                "id": "04-1_BF_Wechsel-Bremsfl_ServiceInfo",
+                "parent": "04_BF",
+                "type": "doc",
+                "data": {
+                    "title": "Mischen und Tausch von Bremsﬂüssigkeit DOT 3 mit DOT 4 bzw. DOT 5.1",
+                    "url": "expert-system/0815QUE/04-1_BF_Wechsel-Bremsfl_ServiceInfo.html"
+                }
+            },
+
+            {
+                "id": "05-1_HV_Vorgehensweise",
+                "parent": "05_HV",
+                "type": "doc",
+                "data": {
+                    "title": "Allgemeine Vorgehensweise Hochvolt-System spannungsfrei schalten / wieder einschalten",
+                    "url": "expert-system/0815QUE/05-1_HV_Vorgehensweise.html"
+                }
+            },
+            {
+                "id": "05-2_HV_Vorgehensweise_ausschalten",
+                "parent": "05_HV",
+                "type": "doc",
+                "data": {
+                    "title": "Vorgehensweise Hochvolt-System spannungsfrei schalten",
+                    "url": "expert-system/0815QUE/05-2_HV_Vorgehensweise_ausschalten.html"
+                }
+            },
+            {
+                "id": "05-3_HV_Vorgehensweise_einschalten",
+                "parent": "05_HV",
+                "type": "doc",
+                "data": {
+                    "title": "Vorgehensweise Hochvolt-System wieder einschalten",
+                    "url": "expert-system/0815QUE/05-3_HV_Vorgehensweise_einschalten.html"
+                }
+            }
+        ]
+    }
+]

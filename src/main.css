@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@source "../public/expert-system";
+
+/* Blink-Effekt beim Anlegen von Schutzausrüstung: pulsiert genau 3x und stoppt dann */
+@theme {
+    --animate-blink-3x: blink 2s cubic-bezier(0.4, 0, 0.6, 1) 3;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+* {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+/* Werkstattwagen: Die Regel oben kompiliert zu `* ::-webkit-scrollbar` und blendet damit in
+   Chromium/Edge jede Scrollbar aus; Firefox kennt das Pseudo-Element nicht und zeigt sie weiterhin.
+   Die Klasse hier hat mit (0,1,1) die höhere Spezifität als (0,0,1) und holt die Scrollbar gezielt
+   nur für den Werkstattwagen zurück. */
+.inventory-scrollbar::-webkit-scrollbar {
+    display: block;
+    width: 8px;
+}
+
+.inventory-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.inventory-scrollbar::-webkit-scrollbar-thumb {
+    background-color: var(--color-sky-700);
+    border-radius: 9999px;
+}
+
+/* Firefox zeigt die Scrollbar ohnehin; das gleicht nur ihr Aussehen an Edge an. */
+.inventory-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-sky-700) transparent;
+}
